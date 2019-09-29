@@ -87,7 +87,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
 
-[layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after{
+/*[layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after{
   margin-top: 10px;
   margin-bottom: -3px;
   padding-top: 10px;
@@ -109,6 +109,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
   -webkit-mask-repeat: no-repeat;
   background-size: 200% 200%!important;
 }
+*/
 
 [layer-id="user-settings"] .userSettingsAccount-2eMFVR:after{
   content:var(--Theme-Variant)", "var(--Update-Text);
