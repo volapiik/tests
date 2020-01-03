@@ -45,10 +45,10 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 @import url('https://nfld99.github.io/Better-Discord/Notifications/Made_By_NFLD99.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/FI/BL.css');
-@import url('https://bdsources.tk/sourcecheck/code.css');
+@import url('https://bdsources.github.io/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #458 ";
+  --Update-Text: " Update #477 ";
   --File-Updated-2019-9-15: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -57,9 +57,9 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Home-Icon-Mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>bubble2</title><path d="M16 6c-1.717 0-3.375 0.271-4.928 0.804-1.46 0.502-2.76 1.211-3.863 2.108-2.069 1.681-3.209 3.843-3.209 6.088 0 1.259 0.35 2.481 1.039 3.63 0.711 1.185 1.781 2.268 3.093 3.133 0.949 0.625 1.587 1.623 1.755 2.747 0.056 0.375 0.091 0.753 0.105 1.129 0.233-0.194 0.461-0.401 0.684-0.624 0.755-0.755 1.774-1.172 2.828-1.172 0.168 0 0.336 0.011 0.505 0.032 0.655 0.083 1.325 0.126 1.99 0.126 1.717 0 3.375-0.271 4.928-0.804 1.46-0.502 2.76-1.211 3.863-2.108 2.069-1.681 3.209-3.843 3.209-6.088s-1.14-4.407-3.209-6.088c-1.104-0.897-2.404-1.606-3.863-2.108-1.553-0.534-3.211-0.804-4.928-0.804zM16 2v0c8.837 0 16 5.82 16 13s-7.163 13-16 13c-0.849 0-1.682-0.054-2.495-0.158-3.437 3.437-7.539 4.053-11.505 4.144v-0.841c2.142-1.049 4-2.961 4-5.145 0-0.305-0.024-0.604-0.068-0.897-3.619-2.383-5.932-6.024-5.932-10.103 0-7.18 7.163-13 16-13z"></path></svg>');
 
-  --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0"></text><text y="45" style="font-size: 1.1em;" x="0"></text><text y="55" style="font-size: 1.1em;" x="0"><text y="75" style="font-size: 1.6em; fill: lime;"></text><text y="85" style="font-size: 1em;" x="0"></text><text y="95" style="font-size: 1em;" x="0"></text></g></svg>');
+  --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixs, Happy Holidays __</text></g></svg>');
 
-  --ChangelogSize: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"></svg>');
+  --ChangelogSize: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 95" style="width:100%;height:100px;"></svg>');
 
   --SD-roundness: var(--Chat-Avatar-Border-Radius); /* Must be with px */
   --green: #43b581;
@@ -69,6 +69,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
   --sourcecheck-official: var(--BetterDocsBlockerGreen, #43B581);
   --sourcecheck-trusted: var(--BetterDocsBlockerGold, #FAA61A);
   --sourcecheck-unsafe: var(--BetterDocsBlockerRed, #f04747);
+  --logo-primary: var(--Main-Colour); /*Added*/
 }
 
 .theme-dark{
@@ -1591,27 +1592,6 @@ div.bd-dropdown {
 
 div.guild-header header {
   background-color: #121212;
-}
-
-.theme-dark .inner-zqa7da textarea {
-  padding-left: 10px!important;
-  margin-bottom: 0;
-  color: var(--Chat-Input-Colour) !important;
-  background-color: transparent !important;
-  margin-top: 0px!important;
-  padding-top: 15px;
-  vertical-align: middle;
-  text-shadow: 0 0 6px var(--Text-Shadow-Colour), 0 0 6px var(--Text-Shadow-Colour), 0 0 5px var(--Text-Shadow-Colour), 0 0 4px var(--Text-Shadow-Colour);
-}
-
-.theme-dark .inner-zqa7da {
-  background: var(--Chat-Input-Background) 50% 50%/cover !important;
-  border-radius: 4px;
-  border: 1px solid var(--Main-Colour) !important;
-  margin-top: 1.6px;
-  margin-left: 2px;
-  margin-bottom: -13px;
-  vertical-align: middle;
 }
 
 .account {
@@ -9731,16 +9711,7 @@ transition: all 200ms;
   background: var(--Secondary-Background-Colour);
   color: var(--Main-Colour);
   border: 1px solid var(--Secondary-Main-Colour);
-}
 
-.theme-dark .inner-zqa7da:focus-within {
-  border-color: var(--Main-Colour)!important;
-  transition: border 200ms;
-}
-
-.theme-dark .inner-zqa7da {
-  border-color: var(--Secondary-Main-Colour)!important;
-  transition: border 200ms;
 }
 
 .base-gE7OpD .cooldownWrapper-3joyFc {
@@ -10469,14 +10440,6 @@ transition: all 200ms;
   margin: auto;
 }
 
-.homeIcon-tEMBK1{
-  content: "";
-  -webkit-mask: var(--Home-Icon-Mask);
-  -webkit-mask-size: 80% !important;
-  -webkit-mask-position: 80% !important;
-  -webkit-mask-repeat: no-repeat!important;
-  background-image: none!important;
-}
 
 [fill="black"]{
   fill: var(--Background-Colour)!important;
@@ -10522,16 +10485,7 @@ transition: all 200ms;
 
 .consentBody-3xZVZA{
   color: var(--Main-Colour);
-}
 
-.listItem-2P_4kh,.svg-1X37T1, .wrapper-25eVIn{
-  width: 45px!important;
-  height: 45px!important;
-}
-
-.wrapper-sa6paO, .listItem-2P_4kh, s.svg-1X37T1, .wrapper-25eVIn, .svg-1X37T1, .wrapper-25eVIn{
-  width: 45px!important;
-  height: 45px!important;
 }
 
 .listItem-2P_4kh {
@@ -11471,17 +11425,7 @@ html .upperBadge-2XnnGB.count {
 
 .wrapper-1Rf91z.foldercontent .guildSeparator-3s64Iy{
   top: 0;
-}
 
-.homeIcon-tEMBK1 > path,.homeIcon-tEMBK1{
-  fill: var(--Secondary-Main-Colour)!important;
-  background-color: var(--Secondary-Main-Colour)!important;
-  color: var(--Secondary-Main-Colour)!important;
-  opacity: .5;
-}
-
-.homeIcon-tEMBK1:hover > path,.homeIcon-tEMBK1:hover{
-  opacity: 1;
 }
 
 .bda-dark .theme-light .slide-2pHaq5,.bda-dark .theme-dark .action-1lSjCi, .bda-dark .theme-light .action-1lSjCi{
@@ -13446,10 +13390,7 @@ html * .username-_4ZSMR[changed-by-editusers="true"] *,html * .name-2WpE7M[chang
 
 .container-3baos1:not(:hover) .contents-18-Yxp *{
   opacity: .5;
-}
 
-#app-mount > div.app-19_DXt > div > div.layers-3iHuyZ.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.spacer-1fA9zc > div > div > div.base-3dtUhz > div > div.sidebar-2K8pFh > div.panels-j1Uci_ > div.container-3baos1 > div.nameTag-3uD-yy > div.size10-tblYdA.subtext-3CDbHg:after{
-  content: " NFLD99.com"
 }
 
 .themeClear-1EjkE4.valueUnchecked-2lU_20.sizeDefault-2YlOZr{
@@ -13547,49 +13488,7 @@ fill: var(--Main-Colour) !important;
   color: var(--Main-Colour);
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq{
-  background-image: url('data:image/svg+xml; utf8, <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" stroke-width="1" stroke="rgb(40, 43, 46)" fill="rgb(255, 214, 85)"><path d="M11.500 16.250L17.084 19.186L16.018 12.968L20.535 8.564L14.292 7.657L11.500 2.000L8.708 7.657L2.465 8.564L6.982 12.968L5.916 19.186L11.500 16.250"/></svg>')!important;
-}
 
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.recent-rdY7_c{
-  background-image: url(https://discordapp.com/assets/0f1f2dff98b5e2099086e303d9be0dad.svg)!important;
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.custom-2TY7UZ{
-  background-image: url(https://discordapp.com/assets/bbabd25029321a8260849de01e8c13fc.svg)!important;
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.nature-WkggKK{
-  background-image: url(https://discordapp.com/assets/aafe899a4d7ad7717acc64f5b8f36342.svg)!important;
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.people-2y6eof{
-  background-image: url(https://discordapp.com/assets/0509bf058793ef8ddd770a977e63614c.svg)!important;
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.food-3vb4RY{
-  background-image: url(https://discordapp.com/assets/0eb5a2b715ff649e9757a232996817ab.svg)!important;
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.activity-2oLAbd{
-  background-image: url(https://discordapp.com/assets/8674c1028a63d29fb605be53eeedf1bf.svg)!important;
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.travel-2FeozN{
-  background-image: url(https://discordapp.com/assets/13e86ddf4302f697243425b2f954d00b.svg)!important;
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.objects-ktZjG4{
-  background-image: url(https://discordapp.com/assets/6d9a5b47dc3bf7adf54f19b1e3f6c5ad.svg)!important;
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.symbols-3xtDtJ{
-  background-image: url(https://discordapp.com/assets/83095e6af6c7cf33669e3ab169296867.svg)!important;
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.flags-3peqg9{
-  background-image: url(https://discordapp.com/assets/ccda5cf0a64abbd18fdb9f914b55292e.svg)!important;
-}
 
 .checkbox-3kaeSU .checkboxInner-3yjcPe span{
   margin-top: -3px !important;
@@ -13814,4 +13713,233 @@ background-color: var(--Main-Colour);
   color: var(--Main-Colour);
   border: 1px solid var(--Main-Colour);
   transition: all 200ms;
+}
+
+}
+.activityPanel-28dQGo{
+  width: 70px;
+}
+#bda-qem {
+  background: var(--Secondary-Background-Colour);
+  border-bottom: 1px solid var(--Secondary-Main-Colour)!important;
+}
+.emojiPicker-3m1S-j {
+  background: var(--Emote-Popout-Background);
+  border: 1px solid var(--Secondary-Main-Colour);
+  box-shadow: var(--elevation-high);
+}
+#bda-qem button {
+  border-left: 1px solid var(--Secondary-Main-Colour);
+  box-shadow: var(--Secondary-Main-Colour) 1px 0 0 0;
+  color: var(--Main-Colour);
+  border-top: 1px solid var(--Secondary-Main-Colour)!important;
+}
+#bda-qem button.active {
+  background-color: var(--Background-Colour);
+  color: var(--Main-Colour);
+}
+#bda-qem button:hover {
+  background-color: var(--Background-Colour);
+  color: var(--Main-Colour);
+}
+#bda-qem-twitch-container, #bda-qem-favourite-container {
+  background: var(--Emote-Popout-Background);
+  border-left: 1px solid var(--Secondary-Main-Colour);
+  box-shadow: var(--Secondary-Main-Colour) 1px 0 0 0;
+  border-bottom: 1px solid var(--Secondary-Main-Colour)!important;
+}
+.theme-dark .perksModal-fSYqOq {
+  background: var(--Callout-Background) 50% 50%/cover !important;
+}
+.theme-dark .ctaBar-2UsjF2,.theme-dark .perk-2WeBWW,.tierWrapper-W9ajqp{
+  background: var(--Secondary-Background-Colour);
+}
+[style*="linear-gradient(to right, rgb(32, 34, 37), rgb(32, 34, 37));"]{
+  background: linear-gradient(to right, var(--Secondary-Background-Colour), var(--Secondary-Background-Colour))!important;
+}
+[style*="linear-gradient(to right, rgb(180, 115, 245), rgb(226, 146, 170));"]{
+  background: linear-gradient(to right, var(--Secondary-Background-Colour), var(--Secondary-Background-Colour))!important;
+}
+.theme-dark .headerLogo--hLLAk {
+  color: var(--Main-Colour);
+}
+.headerGraphic-nVhv-X,.marketingLogoImage-2SzXIR{
+  display: none;
+}
+.theme-dark .subtitle-UfhpvR, .theme-dark .subtitleRepositioned-11uB9- {
+  color: var(--Secondary-Main-Colour);
+}
+.connectionDelete-2Odoln.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs > span{
+  font-size: 0;
+}
+.role-2irmRk:not(.TRE-tag){
+  border-radius: 5px;
+  padding-right:20px;
+}
+.role-2irmRk:not(.TRE-tag):hover > .roleCircle-3xAZ1j,.actionButton-VzECiy{
+  display: initial;
+  opacity: 1;
+  transition: all 200ms;
+}
+.role-2irmRk:not(.TRE-tag):not(:hover) > .roleCircle-3xAZ1j{
+  display: initial;
+  opacity: 0;
+  transition: all 200ms;
+}
+.listItemWrapper-3X98Pc > div > svg > foreignObject > a {
+  display: initial;
+}
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN){
+  content: "";
+  -webkit-mask: var(--Home-Icon-Mask);
+  -webkit-mask-size: 50% !important;
+  -webkit-mask-position: 50% !important;
+  -webkit-mask-repeat: no-repeat!important;
+  background-image: none!important;
+  fill: var(--Secondary-Main-Colour)!important;
+  background-color: var(--Secondary-Main-Colour)!important;
+  color: var(--Secondary-Main-Colour)!important;
+}
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN):hover{
+  opacity: 1;
+  transition: all 200ms;
+}
+:not([style="opacity: 1; height: 56px; transform: scale(1);"]) > div > .listItemWrapper-3X98Pc > .wrapper-25eVIn:not(.circleButtonMask-2VNJsN):not(:hover){
+  opacity: .5;
+  transition: all 200ms;
+}
+.embedFull-2tM8--:not(:hover){
+  background: var(--Background-Colour);
+  border-top: 1px solid var(--Secondary-Main-Colour)!important;
+  border-right: 1px solid var(--Secondary-Main-Colour)!important;
+  border-bottom: 1px solid var(--Secondary-Main-Colour)!important;
+  transition: all 200ms;
+}
+.embedFull-2tM8--:hover{
+  background: var(--Background-Colour)!important;
+  border-top: 1px solid var(--Main-Colour)!important;
+  border-right: 1px solid var(--Main-Colour)!important;
+  border-bottom: 1px solid var(--Main-Colour)!important;
+  transition: all 200ms;
+}
+.embedSuppressButton-1FonMn{
+  left: -20px;
+  width: 20px;
+}
+.buttonContainer-KtQ8wc:not(:hover){
+  color: var(--Secondary-Main-Colour);
+  border-color: var(--Secondary-Main-Colour);
+  transition: all 200ms;
+}
+.buttonContainer-KtQ8wc:hover{
+  color: var(--Main-Colour);
+  border-color: var(--Main-Colour);
+  transition: all 200ms;
+}
+.theme-dark .autocompleteArrow-Zxoy9H, .theme-dark .autocompleteHeaderBackground-30T70q {
+  background-color: var(--Background-Colour);
+}
+.theme-dark .container-VSDcQc .headerText-3i6A8K {
+  color: var(--Main-Colour);
+}
+.theme-dark .row-rrHHJU.selected-1pIgLL {
+  background: var(--Background-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+.theme-dark .row-rrHHJU {
+  background: var(--Secondary-Background-Colour);
+}
+.theme-dark .container-VSDcQc .sectionTag-pXyto9 {
+  background-color: var(--Background-Colour);
+  color: var(--Secondary-Main-Colour);
+}
+.theme-dark .row-rrHHJU, .theme-dark .row-rrHHJU span {
+  color: var(--Secondary-Main-Colour);
+}
+.theme-dark .row-rrHHJU.selected-1pIgLL span, .theme-dark .row-rrHHJU:hover span {
+  color: var(--Main-Colour);
+}
+.theme-dark .wrapper-35wsBm {
+  background: var(--Secondary-Background-Colour);
+  border: 1px solid var(--Main-Colour);
+}
+.embedFull-2tM8-- {
+  border-left: 4px solid var(--Secondary-Main-Colour);
+  background: var(--background-secondary);
+}
+.theme-dark .wrapper-1prNyd{
+  background-image: url(https://media.giphy.com/media/XMc1Ui9rAFR1m/source.gif);
+}
+#app-mount > div > div > div.image-3zK3Wt{
+  display: none;
+}
+.infoBar-U6oBFk{
+  background: var(--Background-Colour);
+  border-top: 1px solid var(--Secondary-Main-Colour);
+  border-bottom: 1px solid var(--Secondary-Main-Colour);
+}
+.textAreaEdit-bNLDk3{
+  max-height: 100%!important;
+}
+#popout_373 > div > div > div > div > div > span{
+  left:-20px;
+}
+.textArea-2Spzkt[style*="height"]{
+  max-height: 90vh!important;
+}
+.scrollableContainer-38zsVD{
+  background: var(--Chat-Input-Background) 50% 50%/cover !important;
+  border-radius: 4px;
+  border: 1px solid var(--Main-Colour) !important;
+  margin-top: 1.6px;
+  margin-left: 2px;
+  margin-bottom: -13px;
+  vertical-align: middle;
+  min-height: 3rem;
+  max-height: 90vh;
+}
+.textArea-2Spzkt > .markup-2BOw-j{
+  color: var(--Chat-Input-Colour);
+}
+.theme-dark .theme-light .slide-2pHaq5,.theme-dark .theme-dark .action-1lSjCi, .theme-dark .theme-light .action-1lSjCi,.theme-dark .theme-light .footer-3rDWdC {
+  background: var(--Background-Colour);
+}
+.art-347BZj{
+  display: none;
+}
+.scrollableContainer-2NUZem{
+  background: var(--Chat-Input-Background) 50% 50%/cover !important;
+  border-radius: 4px;
+  border: 1px solid var(--Main-Colour) !important;
+  margin-top: 1.6px;
+  margin-left: 2px;
+  margin-bottom: -13px;
+  vertical-align: middle;
+  min-height: 3rem;
+  max-height: 90vh;
+}
+.textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j{
+  color: var(--Chat-Input-Colour);
+}
+[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) [style*="/assets/959a1978f7be567071a1354a98b46ecd.svg"]{
+  content: "";
+  -webkit-mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><g fill="none" fill-rule="evenodd"><path fill="currentColor" d="M8,6 L2,6 L2,5 C2,3.346 3.346,2 5,2 C6.654,2 8,3.346 8,5 L8,6 Z M4,12 L6,12 L6,8 L4,8 L4,12 Z M5,0 C2.238,0 0,2.238 0,5 L0,12 C0,13.104 0.896,14 2,14 L8,14 C9.104,14 10,13.104 10,12 L10,5 C10,2.238 7.762,0 5,0 Z" transform="translate(4 2)"/><rect width="18" height="18"/></g></svg>')!important;
+  -webkit-mask-size: 80% !important;
+  -webkit-mask-position: 80% !important;
+  -webkit-mask-repeat: no-repeat !important;
+  background-image: none !important;
+}
+[style*="/assets/959a1978f7be567071a1354a98b46ecd.svg"]{
+  background-color: var(--Main-Colour) !important;
+  color: var(--Main-Colour) !important;
+  fill: var(--Main-Colour) !important;
+}
+#app-mount .icon-27yU2q:not(:hover) {
+  border-radius: 50%!important;
+}
+[role][aria-label]:not([aria-label="Spoiler"]):not([role="dialog"]) * foreignObject{
+  overflow: hidden;
+}
+#app-mount .reactions-1xb2Ex > .reactionBtn-2na4rd{
+  background-color: transparent!important;
 }
